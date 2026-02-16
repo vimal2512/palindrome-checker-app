@@ -1,7 +1,8 @@
 package palindromechecker;
+import palindromechecker.uc1.WelcomeMessage;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Palindrome Checker Application");
+        WelcomeMessage.display();
     }
 }
